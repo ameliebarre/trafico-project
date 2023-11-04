@@ -24,7 +24,7 @@ export const staggerAccordionContainer = {
     transition: {
       staggerChildren: 0.06,
       delayChildren: 0.2,
-      type: 'tween',
+      type: "tween",
     },
   },
 };
@@ -44,7 +44,7 @@ export const boyAnim = {
   animate: {
     x: 0,
     opacity: 1,
-    transition: { type: 'spring', duration: 4 },
+    transition: { type: "spring", duration: 4 },
   },
 };
 
@@ -53,7 +53,7 @@ export const girlAnim = {
   animate: {
     x: 700,
     opacity: 1,
-    transition: { type: 'spring', duration: 3 },
+    transition: { type: "spring", duration: 3 },
   },
 };
 
@@ -61,7 +61,7 @@ export const heroTruckAnim = {
   initial: { x: -700 },
   animate: {
     x: 0,
-    transition: { type: 'spring', duration: 3 },
+    transition: { type: "spring", duration: 3 },
   },
 };
 
@@ -69,7 +69,7 @@ export const footerTruckAnim = {
   initial: { x: -700 },
   animate: {
     x: 0,
-    transition: { type: 'spring', duration: 2 },
+    transition: { type: "spring", duration: 2 },
   },
 };
 
@@ -81,7 +81,7 @@ export const fadeInDown = {
   animate: {
     y: 0,
     opacity: 1,
-    transition: { type: 'tween', duration: 1.1 },
+    transition: { type: "tween", duration: 1.1 },
   },
 };
 
@@ -93,7 +93,7 @@ export const fadeInUp = {
   animate: {
     y: 0,
     opacity: 1,
-    transition: { type: 'tween', duration: 1.1 },
+    transition: { type: "tween", duration: 1.1 },
   },
 };
 
@@ -105,7 +105,7 @@ export const fadeInLeft = {
   animate: {
     x: 0,
     opacity: 1,
-    transition: { type: 'tween', duration: 1.1 },
+    transition: { type: "tween", duration: 1.1 },
   },
 };
 
@@ -117,6 +117,6 @@ export const fadeInRight = {
   animate: {
     x: 0,
     opacity: 1,
-    transition: { type: 'tween', duration: 1.1 },
+    transition: { type: "tween", duration: 1.1 },
   },
 };
