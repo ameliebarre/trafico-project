@@ -14,7 +14,7 @@ const About = ({ aboutData }) => {
           initial="initial"
           whileInView={"animate"}
           viewport={{ once: true }}
-          className="flex flex-col lg:flex-row gap-x-[20px]"
+          className="flex flex-col lg:flex-row gap-x-[20px] items-center"
         >
           <motion.div variants={fadeInDown} className="flex-1 mt-[74px]">
             <h3 className="h3">{title}</h3>
