@@ -1,13 +1,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-import {
-  fadeInDown,
-  fadeInLeft,
-  fadeInRight,
-  fadeInUp,
-  staggerTextContainer,
-} from "../variants";
+import { fadeInLeft, fadeInRight, staggerTextContainer } from "../variants";
 
 const How = ({ howData, aboutData }) => {
   // const { title, subtitle, girlImg } = howData;

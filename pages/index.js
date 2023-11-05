@@ -14,6 +14,7 @@ import {
   navData,
   aboutData,
   howData,
+  faqData,
   testimonialData,
   footerData,
 } from "../data.json";
@@ -51,6 +52,7 @@ export const getStaticProps = async () => {
       navData,
       aboutData,
       howData,
+      faqData,
       testimonialData,
       footerData,
     },
